@@ -59,6 +59,31 @@ El objeto creado a partir de la clase CuentaBancaria puede realizar acciones a t
 Estas acciones se ejecutan desde la clase principal usando el objeto. Por ejemplo:
 
 CuentaBancaria cuenta1 = new CuentaBancaria("Lucía", 100.0);
+
+
+Ejercicio 1:
+
+Definición:
+Crear una clase llamada Empleado con atributos privados como nombre, salario y cargo.
+
+Requisitos:
+
+Implementar métodos públicos para aumentar el salario y mostrar la información del empleado.
+Aplicar encapsulamiento ocultando los datos del empleado.
+Controlar el cambio de salario (por ejemplo, que no sea negativo).
+Usar métodos para modificar y mostrar la información en lugar de acceder directamente a los atributos.
+
+Ejercicio 2: 
+
+Definición:
+Crear una clase llamada Asistencia con atributos privados como nombreEmpleado, diasAsistidos y diasFaltados.
+
+Requisitos:
+
+Implementar métodos públicos para registrar asistencia y mostrar el resumen.
+Proteger los datos usando encapsulamiento (private).
+Controlar que los valores no sean negativos.
+Modificar los datos únicamente mediante métodos (como registrar asistencia o falta).
 cuenta1.mostrarInformacion();
 cuenta1.depositar(50.0);
 cuenta1.retirar(30.0);
