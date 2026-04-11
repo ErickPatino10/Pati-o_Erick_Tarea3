@@ -41,5 +41,22 @@ public class Main {
         cuenta1.depositar(1179);
         cuenta1.retirar(346);
         cuenta1.mostarInformacion();
+
+        // Objeto Empleado
+        Empleado emp1 = new Empleado("Erick", 500, "Programador");
+        //LLamo a los metodos
+        emp1.mostrarInformacion();
+        emp1.aumentarSalario(200);
+        System.out.println("Después del aumento:");
+        emp1.mostrarInformacion();
+
+        //Objeto Asistencia
+        Asistencia emp2 = new Asistencia("Erick", 5, 1);
+        //LLamo a los metodos
+        emp2.mostrarResumen();
+        emp2.registrarAsistencia();
+        emp2.registrarFalta();
+        System.out.println("Después de actualizar:");
+        emp2.mostrarResumen();
     }
 }
